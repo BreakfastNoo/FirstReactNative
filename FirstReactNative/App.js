@@ -71,8 +71,7 @@ const App: () => Node = () => {
             backgroundColor: isDarkMode ? Colors.black : Colors.white,
           }}>
           <Section title="Step One">
-            Edit <Text style={styles.highlight}>App.js</Text> to become a
-            slightly better person.
+            I <Text style={styles.highlight}>like</Text> apples.
           </Section>
           <Section title="See Your Changes">
             <ReloadInstructions />
@@ -105,7 +104,7 @@ const styles = StyleSheet.create({
     fontWeight: '400',
   },
   highlight: {
-    fontWeight: '700',
+    fontWeight: '900',
   },
 });
 
